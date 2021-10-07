@@ -1,3 +1,6 @@
+.user-component {
+  justify-content: space-between;
+}
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -18,4 +21,18 @@
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 17px;
+}
+.user-component__avater__xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__avater__sm {
+  width: 60px;
+  height: 60px;
+}
+.user-component__titile--not-bold {
+  font-weight: 400;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
