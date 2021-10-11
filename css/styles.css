@@ -23,5 +23,6 @@ body {
 }
 
 .main-screen {
+  height: 10000vh;
   padding: 0px var(--horizontal-space);
 }
